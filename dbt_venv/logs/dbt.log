@@ -1,0 +1,341 @@
+
+
+============================== 2023-04-25 14:20:01.354113 | db579cc9-74f5-4253-87de-e2a731d9f5f1 ==============================
+[0m14:20:01.354113 [info ] [MainThread]: Running with dbt=1.4.6
+[0m14:20:01.355189 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/majone/.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'project_name': 'first_project', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m14:20:01.355295 [debug] [MainThread]: Tracking: tracking
+[0m14:20:01.356698 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1f4816fc70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1f4816f8b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1f4816ee00>]}
+[0m14:20:01.356962 [info ] [MainThread]: Creating dbt configuration folder at /home/majone/.dbt
+[0m14:20:01.357969 [debug] [MainThread]: Starter project path: /home/majone/dbt_venv/lib/python3.10/site-packages/dbt/include/starter_project
+
+
+============================== 2023-04-25 16:16:26.806434 | 3d232633-a211-4037-833f-06ab872510e1 ==============================
+[0m16:16:26.806434 [info ] [MainThread]: Running with dbt=1.4.6
+[0m16:16:26.808033 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/majone/.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'config_dir': True, 'which': 'debug', 'indirect_selection': 'eager'}
+[0m16:16:26.808177 [debug] [MainThread]: Tracking: tracking
+[0m16:16:26.809547 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f77b6f93490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f77b6f93d00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f77b6f92fe0>]}
+[0m16:16:26.809802 [info ] [MainThread]: To view your profiles.yml file, run:
+
+xdg-open /home/majone/.dbt
+[0m16:16:26.810036 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f77b6f93490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f77b6f92fe0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f77b6f93eb0>]}
+[0m16:16:26.810194 [debug] [MainThread]: Flushing usage events
+[0m16:22:02.281750 [info ] [MainThread]: Profile first_project written to /home/majone/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m16:22:02.296267 [info ] [MainThread]: 
+Your new dbt project "first_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m16:22:02.303874 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1f4816ee00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1f4816f910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1f4816f370>]}
+[0m16:22:02.309166 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2023-04-25 16:22:24.268061 | f0d07829-6d32-4b80-a188-dbd68da0f94e ==============================
+[0m16:22:24.268061 [info ] [MainThread]: Running with dbt=1.4.6
+[0m16:22:24.269276 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/majone/.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'config_dir': True, 'which': 'debug', 'indirect_selection': 'eager'}
+[0m16:22:24.269406 [debug] [MainThread]: Tracking: tracking
+[0m16:22:24.270516 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4eaf767910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4eaf767280>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4eaf767670>]}
+[0m16:22:24.270744 [info ] [MainThread]: To view your profiles.yml file, run:
+
+xdg-open /home/majone/.dbt
+[0m16:22:24.270941 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4eaf767910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4eaf767670>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4eaf767eb0>]}
+[0m16:22:24.271075 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2023-04-25 16:24:02.861486 | ee34271a-f5f6-405c-823e-4c390ef86c49 ==============================
+[0m16:24:02.861486 [info ] [MainThread]: Running with dbt=1.4.6
+[0m16:24:02.863329 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/majone/.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'config_dir': True, 'which': 'debug', 'indirect_selection': 'eager'}
+[0m16:24:02.863467 [debug] [MainThread]: Tracking: tracking
+[0m16:24:02.864599 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f02cc393910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f02cc393280>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f02cc393670>]}
+[0m16:24:02.864833 [info ] [MainThread]: To view your profiles.yml file, run:
+
+xdg-open /home/majone/.dbt
+[0m16:24:02.865044 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f02cc393910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f02cc393670>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f02cc393eb0>]}
+[0m16:24:02.865188 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2023-04-25 16:38:23.238828 | 910d7865-95ad-4b0f-b920-ca5f83f72917 ==============================
+[0m16:38:23.238828 [info ] [MainThread]: Running with dbt=1.4.6
+[0m16:38:23.240013 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/majone/.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'project_name': 'DS5559_LAB', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m16:38:23.240130 [debug] [MainThread]: Tracking: tracking
+[0m16:38:23.241299 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f31c9997370>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f31c9996f80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f31c9997bb0>]}
+[0m16:38:23.242005 [debug] [MainThread]: Starter project path: /home/majone/.local/lib/python3.10/site-packages/dbt/include/starter_project
+[0m16:41:00.603795 [info ] [MainThread]: Profile DS5559_LAB written to /home/majone/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m16:41:00.604509 [info ] [MainThread]: 
+Your new dbt project "DS5559_LAB" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m16:41:00.604980 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f31c99e2b60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f31c9997bb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f31c9997820>]}
+[0m16:41:00.605384 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2023-04-25 16:46:14.908049 | 0b4b3dab-ae95-4d3c-b707-f26f7bc8a7b0 ==============================
+[0m16:46:14.908049 [info ] [MainThread]: Running with dbt=1.4.6
+[0m16:46:14.909198 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/majone/.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m16:46:14.909303 [debug] [MainThread]: Tracking: tracking
+[0m16:46:14.910483 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0acdf97160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0acdf97d00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0acdf978b0>]}
+[0m16:46:34.263290 [info ] [MainThread]: A project called DS5559_LAB already exists here.
+[0m16:46:34.263967 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0acdf978e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0acdf977f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0acdf97100>]}
+[0m16:46:34.264257 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2023-04-25 17:03:36.387849 | b95bfebd-12b0-4475-b313-537e08149fe9 ==============================
+[0m17:03:36.387849 [info ] [MainThread]: Running with dbt=1.4.6
+[0m17:03:36.389018 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/majone/.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'project_name': 'DS5559_LAB', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m17:03:36.389134 [debug] [MainThread]: Tracking: tracking
+[0m17:03:36.390655 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9c8cd97520>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9c8cd97940>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9c8cd96e60>]}
+[0m17:03:36.391281 [debug] [MainThread]: Starter project path: /home/majone/.local/lib/python3.10/site-packages/dbt/include/starter_project
+[0m17:03:36.394432 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9c8cde1660>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9c8cde1120>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9c8cde0f40>]}
+[0m17:03:36.394622 [debug] [MainThread]: Flushing usage events
+[0m17:03:36.576600 [error] [MainThread]: Encountered an error:
+while parsing a block mapping
+  in "/home/majone/.dbt/profiles.yml", line 1, column 1
+expected <block end>, but found '<block mapping start>'
+  in "/home/majone/.dbt/profiles.yml", line 2, column 3
+[0m17:03:36.577661 [error] [MainThread]: Traceback (most recent call last):
+  File "/home/majone/.local/lib/python3.10/site-packages/dbt/main.py", line 136, in main
+    results, succeeded = handle_and_check(args)
+  File "/home/majone/.local/lib/python3.10/site-packages/dbt/main.py", line 206, in handle_and_check
+    task, res = run_from_args(parsed)
+  File "/home/majone/.local/lib/python3.10/site-packages/dbt/main.py", line 253, in run_from_args
+    results = task.run()
+  File "/home/majone/.local/lib/python3.10/site-packages/dbt/task/init.py", line 302, in run
+    if not self.check_if_can_write_profile(profile_name=project_name):
+  File "/home/majone/.local/lib/python3.10/site-packages/dbt/task/init.py", line 201, in check_if_can_write_profile
+    profiles = yaml.safe_load(f) or {}
+  File "/home/majone/.local/lib/python3.10/site-packages/yaml/__init__.py", line 125, in safe_load
+    return load(stream, SafeLoader)
+  File "/home/majone/.local/lib/python3.10/site-packages/yaml/__init__.py", line 81, in load
+    return loader.get_single_data()
+  File "/home/majone/.local/lib/python3.10/site-packages/yaml/constructor.py", line 49, in get_single_data
+    node = self.get_single_node()
+  File "/home/majone/.local/lib/python3.10/site-packages/yaml/composer.py", line 36, in get_single_node
+    document = self.compose_document()
+  File "/home/majone/.local/lib/python3.10/site-packages/yaml/composer.py", line 55, in compose_document
+    node = self.compose_node(None, None)
+  File "/home/majone/.local/lib/python3.10/site-packages/yaml/composer.py", line 84, in compose_node
+    node = self.compose_mapping_node(anchor)
+  File "/home/majone/.local/lib/python3.10/site-packages/yaml/composer.py", line 127, in compose_mapping_node
+    while not self.check_event(MappingEndEvent):
+  File "/home/majone/.local/lib/python3.10/site-packages/yaml/parser.py", line 98, in check_event
+    self.current_event = self.state()
+  File "/home/majone/.local/lib/python3.10/site-packages/yaml/parser.py", line 438, in parse_block_mapping_key
+    raise ParserError("while parsing a block mapping", self.marks[-1],
+yaml.parser.ParserError: while parsing a block mapping
+  in "/home/majone/.dbt/profiles.yml", line 1, column 1
+expected <block end>, but found '<block mapping start>'
+  in "/home/majone/.dbt/profiles.yml", line 2, column 3
+
+
+
+============================== 2023-04-25 17:04:39.772231 | 5e0a3f9e-a495-49a5-8393-185fb33116f0 ==============================
+[0m17:04:39.772231 [info ] [MainThread]: Running with dbt=1.4.6
+[0m17:04:39.773264 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/majone/.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'project_name': 'DS5559_LAB', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m17:04:39.773373 [debug] [MainThread]: Tracking: tracking
+[0m17:04:39.774708 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8d4338b520>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8d4338b940>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8d4338ae60>]}
+[0m17:04:39.775315 [info ] [MainThread]: A project called DS5559_LAB already exists here.
+[0m17:04:39.775538 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8d4338b5e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8d4338bfd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8d4338b970>]}
+[0m17:04:39.775686 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2023-04-25 17:05:31.681987 | c425bae4-258d-483f-98c3-18e5ca770875 ==============================
+[0m17:05:31.681987 [info ] [MainThread]: Running with dbt=1.4.6
+[0m17:05:31.683287 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/majone/.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'project_name': 'DS5559_LAB', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m17:05:31.683418 [debug] [MainThread]: Tracking: tracking
+[0m17:05:31.684739 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f61a1197460>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f61a1197250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f61a1196ec0>]}
+[0m17:05:31.685338 [debug] [MainThread]: Starter project path: /home/majone/.local/lib/python3.10/site-packages/dbt/include/starter_project
+[0m17:05:31.690825 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f61a11e13c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f61a11e0280>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f61a11e2980>]}
+[0m17:05:31.691073 [debug] [MainThread]: Flushing usage events
+[0m17:05:31.860574 [error] [MainThread]: Encountered an error:
+expected '<document start>', but found '<block mapping start>'
+  in "/home/majone/.dbt/profiles.yml", line 2, column 3
+[0m17:05:31.862074 [error] [MainThread]: Traceback (most recent call last):
+  File "/home/majone/.local/lib/python3.10/site-packages/dbt/main.py", line 136, in main
+    results, succeeded = handle_and_check(args)
+  File "/home/majone/.local/lib/python3.10/site-packages/dbt/main.py", line 206, in handle_and_check
+    task, res = run_from_args(parsed)
+  File "/home/majone/.local/lib/python3.10/site-packages/dbt/main.py", line 253, in run_from_args
+    results = task.run()
+  File "/home/majone/.local/lib/python3.10/site-packages/dbt/task/init.py", line 302, in run
+    if not self.check_if_can_write_profile(profile_name=project_name):
+  File "/home/majone/.local/lib/python3.10/site-packages/dbt/task/init.py", line 201, in check_if_can_write_profile
+    profiles = yaml.safe_load(f) or {}
+  File "/home/majone/.local/lib/python3.10/site-packages/yaml/__init__.py", line 125, in safe_load
+    return load(stream, SafeLoader)
+  File "/home/majone/.local/lib/python3.10/site-packages/yaml/__init__.py", line 81, in load
+    return loader.get_single_data()
+  File "/home/majone/.local/lib/python3.10/site-packages/yaml/constructor.py", line 49, in get_single_data
+    node = self.get_single_node()
+  File "/home/majone/.local/lib/python3.10/site-packages/yaml/composer.py", line 39, in get_single_node
+    if not self.check_event(StreamEndEvent):
+  File "/home/majone/.local/lib/python3.10/site-packages/yaml/parser.py", line 98, in check_event
+    self.current_event = self.state()
+  File "/home/majone/.local/lib/python3.10/site-packages/yaml/parser.py", line 171, in parse_document_start
+    raise ParserError(None, None,
+yaml.parser.ParserError: expected '<document start>', but found '<block mapping start>'
+  in "/home/majone/.dbt/profiles.yml", line 2, column 3
+
+
+
+============================== 2023-04-25 17:07:33.636048 | 6a3b5fa1-0d8f-4165-a9a3-18ac5e0a9506 ==============================
+[0m17:07:33.636048 [info ] [MainThread]: Running with dbt=1.4.6
+[0m17:07:33.637239 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/majone/.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'project_name': 'DS5559_LAB', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m17:07:33.637384 [debug] [MainThread]: Tracking: tracking
+[0m17:07:33.638670 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f42bb58f910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f42bb58f9d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f42bb58f130>]}
+[0m17:07:33.639359 [debug] [MainThread]: Starter project path: /home/majone/.local/lib/python3.10/site-packages/dbt/include/starter_project
+[0m17:07:33.643272 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f42bb5dafb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f42bb5d9600>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f42bb5da980>]}
+[0m17:07:33.643485 [debug] [MainThread]: Flushing usage events
+[0m17:07:33.819766 [error] [MainThread]: Encountered an error:
+expected '<document start>', but found '<block mapping start>'
+  in "/home/majone/.dbt/profiles.yml", line 2, column 3
+[0m17:07:33.821118 [error] [MainThread]: Traceback (most recent call last):
+  File "/home/majone/.local/lib/python3.10/site-packages/dbt/main.py", line 136, in main
+    results, succeeded = handle_and_check(args)
+  File "/home/majone/.local/lib/python3.10/site-packages/dbt/main.py", line 206, in handle_and_check
+    task, res = run_from_args(parsed)
+  File "/home/majone/.local/lib/python3.10/site-packages/dbt/main.py", line 253, in run_from_args
+    results = task.run()
+  File "/home/majone/.local/lib/python3.10/site-packages/dbt/task/init.py", line 302, in run
+    if not self.check_if_can_write_profile(profile_name=project_name):
+  File "/home/majone/.local/lib/python3.10/site-packages/dbt/task/init.py", line 201, in check_if_can_write_profile
+    profiles = yaml.safe_load(f) or {}
+  File "/home/majone/.local/lib/python3.10/site-packages/yaml/__init__.py", line 125, in safe_load
+    return load(stream, SafeLoader)
+  File "/home/majone/.local/lib/python3.10/site-packages/yaml/__init__.py", line 81, in load
+    return loader.get_single_data()
+  File "/home/majone/.local/lib/python3.10/site-packages/yaml/constructor.py", line 49, in get_single_data
+    node = self.get_single_node()
+  File "/home/majone/.local/lib/python3.10/site-packages/yaml/composer.py", line 39, in get_single_node
+    if not self.check_event(StreamEndEvent):
+  File "/home/majone/.local/lib/python3.10/site-packages/yaml/parser.py", line 98, in check_event
+    self.current_event = self.state()
+  File "/home/majone/.local/lib/python3.10/site-packages/yaml/parser.py", line 171, in parse_document_start
+    raise ParserError(None, None,
+yaml.parser.ParserError: expected '<document start>', but found '<block mapping start>'
+  in "/home/majone/.dbt/profiles.yml", line 2, column 3
+
+
+
+============================== 2023-04-25 17:15:19.828916 | cd35624b-326f-4cc6-b4fd-af7369a9b069 ==============================
+[0m17:15:19.828916 [info ] [MainThread]: Running with dbt=1.4.6
+[0m17:15:19.830059 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/majone/.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'project_name': 'DS5559_LAB', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m17:15:19.830187 [debug] [MainThread]: Tracking: tracking
+[0m17:15:19.831424 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f421d773460>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f421d773250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f421d772ec0>]}
+[0m17:15:19.832075 [debug] [MainThread]: Starter project path: /home/majone/.local/lib/python3.10/site-packages/dbt/include/starter_project
+[0m17:15:19.835146 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f421d7bd630>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f421d7bd0f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f421d7bcf10>]}
+[0m17:15:19.835349 [debug] [MainThread]: Flushing usage events
+[0m17:15:20.001305 [error] [MainThread]: Encountered an error:
+while parsing a block mapping
+  in "/home/majone/.dbt/profiles.yml", line 1, column 1
+expected <block end>, but found '<block mapping start>'
+  in "/home/majone/.dbt/profiles.yml", line 2, column 3
+[0m17:15:20.002390 [error] [MainThread]: Traceback (most recent call last):
+  File "/home/majone/.local/lib/python3.10/site-packages/dbt/main.py", line 136, in main
+    results, succeeded = handle_and_check(args)
+  File "/home/majone/.local/lib/python3.10/site-packages/dbt/main.py", line 206, in handle_and_check
+    task, res = run_from_args(parsed)
+  File "/home/majone/.local/lib/python3.10/site-packages/dbt/main.py", line 253, in run_from_args
+    results = task.run()
+  File "/home/majone/.local/lib/python3.10/site-packages/dbt/task/init.py", line 302, in run
+    if not self.check_if_can_write_profile(profile_name=project_name):
+  File "/home/majone/.local/lib/python3.10/site-packages/dbt/task/init.py", line 201, in check_if_can_write_profile
+    profiles = yaml.safe_load(f) or {}
+  File "/home/majone/.local/lib/python3.10/site-packages/yaml/__init__.py", line 125, in safe_load
+    return load(stream, SafeLoader)
+  File "/home/majone/.local/lib/python3.10/site-packages/yaml/__init__.py", line 81, in load
+    return loader.get_single_data()
+  File "/home/majone/.local/lib/python3.10/site-packages/yaml/constructor.py", line 49, in get_single_data
+    node = self.get_single_node()
+  File "/home/majone/.local/lib/python3.10/site-packages/yaml/composer.py", line 36, in get_single_node
+    document = self.compose_document()
+  File "/home/majone/.local/lib/python3.10/site-packages/yaml/composer.py", line 55, in compose_document
+    node = self.compose_node(None, None)
+  File "/home/majone/.local/lib/python3.10/site-packages/yaml/composer.py", line 84, in compose_node
+    node = self.compose_mapping_node(anchor)
+  File "/home/majone/.local/lib/python3.10/site-packages/yaml/composer.py", line 127, in compose_mapping_node
+    while not self.check_event(MappingEndEvent):
+  File "/home/majone/.local/lib/python3.10/site-packages/yaml/parser.py", line 98, in check_event
+    self.current_event = self.state()
+  File "/home/majone/.local/lib/python3.10/site-packages/yaml/parser.py", line 438, in parse_block_mapping_key
+    raise ParserError("while parsing a block mapping", self.marks[-1],
+yaml.parser.ParserError: while parsing a block mapping
+  in "/home/majone/.dbt/profiles.yml", line 1, column 1
+expected <block end>, but found '<block mapping start>'
+  in "/home/majone/.dbt/profiles.yml", line 2, column 3
+
+
+
+============================== 2023-04-25 17:22:41.817557 | 1f7bbe20-bc35-4e7b-b4b2-ea9ae0cafab8 ==============================
+[0m17:22:41.817557 [info ] [MainThread]: Running with dbt=1.4.6
+[0m17:22:41.818938 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/majone/.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'project_name': 'DS5559_LAB', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m17:22:41.819062 [debug] [MainThread]: Tracking: tracking
+[0m17:22:41.820368 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3afcd73370>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3afcd72f80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3afcd73bb0>]}
+[0m17:22:41.821002 [debug] [MainThread]: Starter project path: /home/majone/.local/lib/python3.10/site-packages/dbt/include/starter_project
+[0m17:24:14.714834 [info ] [MainThread]: Profile DS5559_LAB written to /home/majone/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m17:24:14.715269 [info ] [MainThread]: 
+Your new dbt project "DS5559_LAB" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m17:24:14.715691 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3afcdbeb60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3afcd73bb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3afcd73820>]}
+[0m17:24:14.715952 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2023-04-25 17:28:10.647274 | ed1f19eb-244c-45b9-a738-35e353307867 ==============================
+[0m17:28:10.647274 [info ] [MainThread]: Running with dbt=1.4.6
+[0m17:28:10.648291 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/majone/.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'project_name': 'DS5559_LAB', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m17:28:10.648393 [debug] [MainThread]: Tracking: tracking
+[0m17:28:10.649628 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5cd3597280>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5cd3597c40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5cd3597460>]}
+[0m17:28:10.650250 [debug] [MainThread]: Starter project path: /home/majone/.local/lib/python3.10/site-packages/dbt/include/starter_project
+[0m17:29:30.955871 [info ] [MainThread]: Profile DS5559_LAB written to /home/majone/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m17:29:30.956833 [info ] [MainThread]: 
+Your new dbt project "DS5559_LAB" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m17:29:30.957453 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5cd35e2b30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5cd3597460>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5cd3597430>]}
+[0m17:29:30.957837 [debug] [MainThread]: Flushing usage events
